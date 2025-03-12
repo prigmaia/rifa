@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rifa - Controle de Vendas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Controle da Rifa</h1>
+  
+  <div class="rifa-container">
+    <div class="numbers-container" id="numbers-container"></div>
+  </div>
+  
+  <!-- Modal de Exibição -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="close-modal">&times;</span>
+      <h2>Detalhes da Venda</h2>
+      <p><strong>Nome:</strong> <span id="modal-name"></span></p>
+      <p><strong>Telefone:</strong> <span id="modal-phone"></span></p>
+      <p><strong>Status:</strong> <span id="modal-status"></span></p>
+      <button id="cancel-sale">Cancelar Venda</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
