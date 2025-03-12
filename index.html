@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rifa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<link rel="manifest" href="manifest.json">
+<body>
+  <div class="container">
+    <h1>Controle da Rifa (01 a 100)</h1>
+    <div id="rifa-grid"></div>
+  </div>
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <h2>Informações do Comprador</h2>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" placeholder="Nome do Comprador">
+      <label for="telefone">Telefone (opcional):</label>
+      <input type="text" id="telefone" placeholder="Telefone">
+      <label for="pagamento">Pago?</label>
+      <input type="checkbox" id="pagamento">
+      <button id="salvar">Salvar</button>
+      <button id="cancelar">Cancelar</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
